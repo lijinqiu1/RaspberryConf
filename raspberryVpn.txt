@@ -2,3 +2,5 @@
 sudo apt-get install openvpn
 2. modify the client2.conf file 
 add "tls-version-min 1.0" at the end of the file.
+3. start vpn
+sudo openvpn --config client2.conf --ifconfig 192.168.199.100 255.255.255.0 --route 192.168.199.1
