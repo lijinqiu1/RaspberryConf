@@ -1,0 +1,4 @@
+1. install the openvpn
+sudo apt-get install openvpn
+2. modify the client2.conf file 
+add "tls-version-min 1.0" at the end of the file.
